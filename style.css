@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3CB371;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    gap:40px;
+    
+}
+
+.bigOne{
+    width: 800px;
+    background: white;
+}
+
+.middleText{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding: 30px;
+    background: white;
+}
+
+.middleText h2{
+    margin-bottom: 10px;
+}
+
+.bottomText{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
