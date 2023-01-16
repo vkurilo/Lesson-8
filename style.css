@@ -128,15 +128,11 @@ p{
     .container {
        display: flex;
        flex-direction: column;   
-       align-items: stretch; 
         
     }
     .container-2 {
         display: flex;
         flex-direction: column;     
     }
-    .rightSide{
-        display: flex;
-        a
-    }
+   
 }
