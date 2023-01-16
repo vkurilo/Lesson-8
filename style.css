@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body{
@@ -9,17 +14,46 @@ body{
 
 }
 
+img{
+    cursor: pointer;
+}
+
 .container{
     display: flex;
     justify-content: center;
     padding-top: 150px;
-    gap:40px;
+    gap:20px;
+
     
+    
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    gap:20px;
+
+    
+    
+}
+
+
+
+
+p{
+    color: gray;
 }
 
 .bigOne{
     width: 800px;
     background: white;
+}
+
+.bigBottomText{
+    display: flex;
+   justify-content: space-between;
+    margin-top: 30px;
 }
 
 .middleText{
@@ -28,6 +62,7 @@ body{
     width:100%;
     padding: 30px;
     background: white;
+    
 }
 
 .middleText h2{
@@ -37,5 +72,71 @@ body{
 .bottomText{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    padding: 30px;
+}
+
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.smallContainer-1, .smallContainer{
+    width: 480px;
+    background-color: white;
+    
+}
+
+.smallContainer{
+    height: 60%;
+}
+
+
+
+.smallContainer-1{
+    flex:1;
+}
+
+
+.thirdText{
+   display: flex;
+   justify-content: space-between;
+    margin: 30px;
+    
+}
+
+
+.sm-btText{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+@media (max-width:1240px), {
+    body{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+    }
+    
+   
+    .container {
+       display: flex;
+       flex-direction: column;   
+       align-items: stretch; 
+        
+    }
+    .container-2 {
+        display: flex;
+        flex-direction: column;     
+    }
+    .rightSide{
+        display: flex;
+        a
+    }
 }
